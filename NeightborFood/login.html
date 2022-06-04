@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/login.css" />
+    <title>Neighborfood</title>
+    
+</head>
+<body>
+    <form id="form">
+    <div class="container">
+        <div class="login">
+            <div class="contenido">
+                <p class="sesion">Inicio de sesión</p>
+               
+                <label>Usuario</label>
+                <br/><br/>
+                <input id="usuario" placeholder="Ingrese su usuario"/>
+                <br/><br/>
+
+                <label>password</label>
+                <br/><br/>
+                <input id="contra" placeholder="Ingrese su contraseña"/>
+                <br/>
+                <br/>
+                    <div class="botones">
+                        <button id="boton"  onclick="return validacion()">Ingresar</button>
+                        <br/>
+                        <br/>
+                        <button id="boton1">Atras</button>
+                    </div>
+                </div>
+              
+        </div>
+    </div>
+</form>
+<div id ="error"></div>
+    <script src="/js/validacion.js"></script>
+</body>
+</html>
